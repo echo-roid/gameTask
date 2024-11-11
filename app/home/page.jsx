@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import styles from "../page.module.css";
 import Image from 'next/image';
 import MySlider from "../../common/Slider"
-import Time from '@/componets/time';
+import Time from '../../componets/time';
 
 
 
