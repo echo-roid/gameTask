@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.slick-slider{
+    width: 774px!important;
+  }
+
+
+
+
+  @media (max-width:1024px) {
+    .slick-slider {
+        width: 660px !important;
+    }
+  }
+
+  @media (max-width:800px) {
+    .slick-slider {
+        width: 396px !important;
+    }
+  }
+
+  @media (max-width:500px) {
+    .slick-slider {
+        width: 297px !important;
+    }
+  }
